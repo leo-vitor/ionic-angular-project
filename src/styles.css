@@ -41,3 +41,16 @@
   width: 100%;
   max-width: 400px;
 }
+
+ion-thumbnail {
+  animation: up_and_down-img-item 4s infinite alternate;
+}
+
+@keyframes up_and_down-img-item {
+  0% {
+    transform: translate(0px, 3px) scale(1);
+  }
+  100% {
+    transform: translate(0px, -3px) scale(0.7);
+  }
+}
