@@ -30,7 +30,7 @@ export class Tab3Page implements OnInit {
     console.log(nome);
 
     this.openURL(
-      `https://api.whatsapp.com/send?phone=555194904309&text=Ola%20me%20chamo%20${nome}%20moro%20em%20${endereco}%20vim%20atraves%20do%20seu%20App%20Gostaria%20de%20receber%20doacoes`
+      `https://api.whatsapp.com/send?phone=5585989525345&text=Ola%20me%20chamo%20${nome}%20moro%20em%20${endereco}%20vim%20atraves%20do%20seu%20App%20Gostaria%20de%20receber%20doacoes`
     );
   }
 }
