@@ -9,28 +9,28 @@
     <img
       class="img-item"
       src="https://drive.google.com/uc?id=1sHTj2Q5mnvQ7tGNRqc0zhGZLBBJjlP5V"
-      alt="Imagem Solidariedade"
+      alt="Imagem de Solidariedade"
     />
     <p class="texto-item">
       Need help? We can help you! Fill out the fields and talk to a volunteer.
       🙏
     </p>
     <form [formGroup]="form" (submit)="submit()">
-    <ion-item>
-      <ion-label position="floating">Full Name</ion-label>
-      <ion-input type="text" formControlName="nome"></ion-input>
-    </ion-item>
+      <ion-item>
+        <ion-label position="floating">Full Name</ion-label>
+        <ion-input type="text" formControlName="nome"></ion-input>
+      </ion-item>
 
-    <ion-item>
-      <ion-label position="floating">Address</ion-label>
-      <ion-input type="text" formControlName="endereco"></ion-input>
-    </ion-item>
-    <ion-button
-      [disabled]="form.invalid || form.pending"
-      expand="block"
-      type="submit"
-      >Save</ion-button
-    >
-  </form>
+      <ion-item>
+        <ion-label position="floating">Address</ion-label>
+        <ion-input type="text" formControlName="endereco"></ion-input>
+      </ion-item>
+      <ion-button
+        [disabled]="form.invalid || form.pending"
+        expand="block"
+        type="submit"
+        >Save</ion-button
+      >
+    </form>
   </div>
 </ion-content>
