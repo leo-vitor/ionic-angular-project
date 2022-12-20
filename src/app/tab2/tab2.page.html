@@ -6,7 +6,7 @@
 
 <ion-content>
   <div class="content animate__animated animate__fadeInLeft">
-    <ion-card>
+    <ion-card (click)="donateFood()">
       <ion-item lines="none">
         <ion-thumbnail slot="start">
           <img
@@ -17,7 +17,7 @@
       </ion-item>
     </ion-card>
 
-    <ion-card>
+    <ion-card (click)="donateClothes()">
       <ion-item lines="none">
         <ion-thumbnail slot="start">
           <img
@@ -28,14 +28,14 @@
       </ion-item>
     </ion-card>
 
-    <ion-card>
+    <ion-card (click)="donateBlood()">
       <ion-item lines="none">
         <ion-thumbnail slot="start">
           <img
             src="https://drive.google.com/uc?id=1ITQqGoUFEsayCstLzDdyaJgcmEixdrcs"
           />
         </ion-thumbnail>
-        <ion-label>Money</ion-label>
+        <ion-label>Blood</ion-label>
       </ion-item>
     </ion-card>
   </div>
