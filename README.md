@@ -9,7 +9,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="![image](https://user-images.githubusercontent.com/24318314/208746482-88578512-b5da-4bc5-9858-6c339d409e0f.png)" alt="Telas">
+![image](https://user-images.githubusercontent.com/24318314/208746684-f7b87fce-9c8e-48bf-aa22-29e17dea9b59.png)
 
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/ionic-5-angular-10-start-template-kdtti2)
